@@ -1,6 +1,6 @@
 {
   "name": "@hey-emmah/motionix",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Motionix — motion-first React + TypeScript UI system",
   "main": "dist/index.js",
   "scripts": {
