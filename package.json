@@ -1,0 +1,42 @@
+{
+  "name": "@hey-emmah/motionix",
+  "version": "1.0.2",
+  "description": "Motionix — motion-first React + TypeScript UI system",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup",
+    "types": "tsc --emitDeclarationOnly",
+    "clean": "rimraf dist",
+    "prepare": "npm run build"
+  },
+  "keywords": [],
+  "author": "Emmah",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "framer-motion": "^12.23.24",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "styled-components": "^6.1.19"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@types/styled-components": "^5.1.35",
+    "rimraf": "^6.1.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
+  },
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18",
+    "styled-components": ">=6",
+    "framer-motion": ">=11"
+  }
+}
